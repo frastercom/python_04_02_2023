@@ -1,0 +1,58 @@
+Массивы
+1. Задание: вывести все элементы массива
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+for i in my_array:
+    print(i)
+
+2. Здание: вевести все элементы массива через индексы
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+print(my_array[1])
+print(my_array[2])
+print(my_array[0])
+
+3. Здание: добавить любое значение в массив с помощью метода append ()
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+my_array.append(6)
+
+4. Здание: вставить значение в массив с помощью метода insert ()
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+my_array.insert(0,0)
+
+5. Здание: добавить элементы из списка в массив
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+c=[11,12,13]
+my_array.fromlist(c)
+
+6. Здание: удалите любой элемент массива, используя метод remove ()
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+my_array.remove(4)
+
+7. Здание: удалить последний элемент массива методом pop ()
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+my_array.pop()
+
+8. Здание: обратный массив Python, используя метод reverse ()
+
+from array import *
+my_array = array('i', [1,2,3,4,5])
+my_array.reverse()
+
+9. Здание: обратный массив Python, используя метод reverse ()
+
+from array import *
+my_array = array('i', [1,2,3,3,5])
+my_array.count(3)
